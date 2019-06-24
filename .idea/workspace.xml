@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f689910a-7352-4978-8cfa-b7ddddf79690" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/src/main/java/com/cme/cloud/servicezuul/filter/MyFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/service-feign/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/service-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/service-zuul/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,15 +30,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="45" selection-start-line="45" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/cme/cloud/servicezuul/ServicezuulApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="22" column="92" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/cme/cloud/servicezuul/filter/MyFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="7" column="39" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/cme/cloud/servicezuul/ServicezuulApplication.java" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/cme/cloud/servicezuul/filter/MyFilter.java" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -63,6 +146,49 @@
               <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-parent" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servicezuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -72,9 +198,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561369890437" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561373082859" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -99,6 +229,7 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.15746753" />
   </component>
   <component name="RunManager" selected="Spring Boot.ServicefeignApplication">
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -129,6 +260,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServicezuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cme.cloud.servicezuul.ServicezuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -140,15 +278,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561369430549</updated>
-      <workItem from="1561369434366" duration="273000" />
+      <workItem from="1561369434366" duration="3130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273000" />
+    <option name="totallyTimeSpent" value="3130000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -156,13 +304,14 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.34855235" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" weight="0.32962137" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -173,7 +322,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -195,8 +344,83 @@
         <state relative-caret-position="-405" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="108">
+            <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="39" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="45" selection-start-line="45" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/cme/cloud/servicezuul/ServicezuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="22" column="92" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/cme/cloud/servicezuul/filter/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
