@@ -24,7 +24,7 @@ public class ServicezuulApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ServicezuulApplication.class, args);
-        log.info("路由器，过滤器启动成功");
+        log.info("路由器，过滤器(路由网关)启动成功");
     }
 
 }
