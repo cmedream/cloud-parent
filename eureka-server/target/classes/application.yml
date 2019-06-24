@@ -1,0 +1,17 @@
+server:
+  port: 8001
+
+#配置 eureka.client.registerWithEureka：false 和 fetchRegistry：false 取消 eureka-server 去注册中心 注册服务
+# 因为 eureka-server 是注册中心
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+spring:
+  application:
+    name: eurka-server
